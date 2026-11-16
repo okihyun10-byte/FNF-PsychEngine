@@ -198,6 +198,12 @@ class FreeplayState extends MusicBeatState
 			default:
 				trace('Category not found: $category - loading all songs');
 				loadAllSongs();
+	   }
+ Use:
+    addSong(songName:String, difficulty:Int, weekName:String, color:FlxColor);
+
+ Color Format:
+    0xFF + RRGGBB (e.g. 0xFF00A2FF = blue)
 		}
 	}
 
